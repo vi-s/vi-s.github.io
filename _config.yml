@@ -1,0 +1,14 @@
+# Site settings
+title: Vikram Somu
+email: vs19@gatech.edu
+description: "This is my portfolio."
+baseurl: ""
+url: ""
+host: localhost
+port: 8080
+
+# Build settings
+paginate: 10
+markdown: kramdown
+permalink: pretty
+highlighting: true
