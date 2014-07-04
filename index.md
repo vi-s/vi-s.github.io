@@ -4,9 +4,11 @@ title: Hi, I'm Vikram
 ---
 
 I'm a computer science major at Georgia Tech graduating in the Spring of 2015.  
-My primary interest in the field is Web development.
+In the past, I've interned at an IBM Watson lab and Manheim Car Auctions.  
+My primary interest in the field is building full-stack web applications.
 
-You can find a copy of my resume [here](/Resume.pdf).  
-If you'd like to contact me, please send me a message through [e-mail](mailto:vs19@gatech.edu)
+[Resume](/Resume.pdf) / [Github][github] / [E-mail](mailto:vs19@gatech.edu)
 
 Thank you for visiting my website!
+
+[github]: https://github.com/vi-s
