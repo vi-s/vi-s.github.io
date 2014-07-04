@@ -1,10 +1,12 @@
 ---
-title: Portfolio
-layout: default
+layout: page
+title: Hi, I'm Vikram
 ---
 
-# Hello World!
+I'm a computer science major at Georgia Tech graduating in the Spring of 2015.  
+My primary interest in the field is Web development.
 
-Proin eleifend libero accumsan felis luctus nec consectetur purus commodo. Phasellus sodales est nec massa imperdiet commodo. Maecenas risus nulla, placerat vel vestibulum vel, dapibus quis libero.
+You can find a copy of my resume [here](/Resume.pdf).  
+If you'd like to contact me, please send me a message through [e-mail](mailto:vs19@gatech.edu)
 
-Donec libero libero, bibendum non condimentum ac, ullamcorper at sapien. Duis feugiat urna vel justo cursus facilisis. Vivamus ligula dui, convallis a varius vitae, facilisis eget magna.
+Thank you for visiting my website!

@@ -1,7 +1,8 @@
 # Site settings
 title: Vikram Somu
 email: vs19@gatech.edu
-description: "This is my portfolio."
+description: "Welcome to my personal website."
+github_user: vi-s
 baseurl: ""
 url: ""
 host: localhost
