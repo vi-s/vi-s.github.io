@@ -1,3 +1,0 @@
-jekyll new PATH
-jekyll build --watch
-jekyll serve
