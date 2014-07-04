@@ -4,41 +4,9 @@ layout: default
 ---
 
 # Projects
-
-
-
-            |My Projects
-            ul
-              li
-                  | Course Monitoring Application | node.js/mongodb | (
-                  a(href='http://www.gtcoursewatch.us').
-                    gtcoursewatch.us
-                  |) (
-                  a(href="https://github.com/vi-s/gtcw")
-                    |Source Code
-                  |)
-              li
-                | Student Organization Management System | android/node.js/mysql | (
-                a(href="https://github.com/TeamStingers/StudentOrgManager")
-                  |Source Code
-                |) 
-              li
-                | GTPort | php/mysql | (
-                a(href="https://github.com/vi-s/gtport")
-                  |Source Code
-                |)
-              li
-                | Maple Trainer | c++ | (
-                a(href="https://github.com/vi-s/MapleTrainer")
-                  |Source Code
-                |)
-              li
-                | Twitter Clone (Hartl Rails Tutorial) | ruby on rails | (
-                a(href="https://github.com/vi-s/sample_app")
-                  |Source Code
-                |)
-              li
-                | Seed Trading Web Application | grails | (
-                a(href="https://code.google.com/p/seedbank/")
-                  |Source Code
-                |)
+-	Registration Assistance Application &#124; node.js/mongodb &#124; [gtcoursewatch.us](http://www.gtcoursewatch.us) ([Source Code](https://github.com/vi-s/gtcw))
+-	Student Organization Management System &#124; android/node.js/mysql &#124; ([Source Code](https://github.com/TeamStingers/StudentOrgManager))
+-	GTPort &#124; php/mysql &#124; ([Source Code](https://github.com/vi-s/gtport))
+-	Maple Trainer &#124; c++ &#124; ([Source Code](https://github.com/vi-s/MapleTrainer))
+-	Twitter Clone (Hartl Rails Tutorial) &#124; ruby on rails &#124; ([Source Code](https://github.com/vi-s/sample_app))
+-	Seed Trading Web Application &#124; grails &#124; ([Source Code](https://code.google.com/p/seedbank/))
