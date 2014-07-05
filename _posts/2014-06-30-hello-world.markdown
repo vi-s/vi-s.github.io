@@ -34,7 +34,7 @@ method_ref = method(:hello_world)
 method_ref.call("Hello")
 {% endhighlight %}
 
-All print out ```Hello World!```. You can also pass in code blocks to functions to be executed with a ```yield``` statement like so:
+All print out ```Hello World!```. You can also pass in implicit code blocks to functions to be executed with a ```yield``` statement like so:
 
 {% highlight ruby %}
 #Implicit code block example
@@ -45,7 +45,13 @@ end
 implicit_hello_world do
   "Hello"
 end
+{% endhighlight %}
 
+If no block is provided, the method will raise an exception upon encountering the ```yield``` statement. 
+
+You can also explicitly pass in a code block by passing a parameter prepended with an ```&``` symbol. Any parameter prepended with ```&``` instructs the interpreter to  call the ```to_proc``` method on itself to convert it to a ```Proc``` object. So that's how we can have access to our code block in the form of a ```Proc``` object within our method.
+
+{% highlight ruby %}
 #Explicit code block example
 def explicit_hello_world(&my_block)
   my_block.call + " World!"
@@ -57,6 +63,18 @@ end
 {% endhighlight %}
 
 This is essentially the Ruby analog of a JavaScript callback. The combination of functional and object-oriented really makes me like this language. I certainly see myself using it more in the future. 
+
+```&:symbol``` is a commonly used pattern utilizing the above defined idea. In the base C implementation of Ruby, the ```Symbol``` class has a special implementation of the ```to_proc``` method. The result is that whatever method was specified by ```:symbol``` is found and converted into a ```Proc``` object. Thus, the following two are equivalent:
+
+{% highlight ruby %}
+#Without shortcut
+%w[this is a test array].map{|s| s.upcase}
+
+#With shortcut
+%w[this is a test array].map(&:upcase)
+{% endhighlight %}
+
+Both return the input array in all-caps form. Pretty neat!
 
 Well, that's all for my first post, I hope everyone's summer is going well!
 
