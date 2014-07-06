@@ -62,7 +62,7 @@ explicit_hello_world do
 end
 {% endhighlight %}
 
-This is essentially the Ruby analog of a JavaScript callback. The combination of functional and object-oriented really makes me like this language. I certainly see myself using it more in the future. 
+Code blocks are essentially the Ruby analog of a JavaScript callback.
 
 ```&:symbol``` is a commonly used pattern utilizing the above defined idea. In the base C implementation of Ruby, the ```Symbol``` class has a special implementation of the ```to_proc``` method. The result is that whatever method was specified by ```:symbol``` is found and converted into a ```Proc``` object. Thus, the following two are equivalent:
 
@@ -76,6 +76,7 @@ This is essentially the Ruby analog of a JavaScript callback. The combination of
 
 Both return the input array in all-caps form. Pretty neat!
 
+The combination of functional and object-oriented really makes me like this language. I certainly see myself using it more in the future. 
 Well, that's all for my first post, I hope everyone's summer is going well!
 
 [gtcoursewatch]: http://gtcoursewatch.us
