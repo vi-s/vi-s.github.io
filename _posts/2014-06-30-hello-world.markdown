@@ -5,15 +5,15 @@ date:   2014-06-30 14:00:21
 categories: summer internship ibm pittsburgh
 ---
 
-This is my first post on my personal site, which was generated using a static site generator known as Jekyll. I like Jekyll since it takes so much boilerplate code out of the mix. The Liquid templating engine is new to me, but not terribly difficult to get used to. There are also a wide range of themes and plugins that can be leveraged with Jekyll.
+Hello World! -- I made this blog using a static site generator known as Jekyll. I'm really liking Jekyll since it takes so much boilerplate code out of the mix. The Liquid templating engine is new to me, but not terribly difficult to get used to. There are also a wide range of themes and plugins that can be leveraged.
 
-So far, this summer has been pretty relaxing. After I got off from school, I had roughly a month before my internship started. Since I had essentially no commitments during this time, I had the most chill month one could imagine. I spent some of my free time working on my website [gtcoursewatch.us][gtcoursewatch] adding new features and revamping the front-end. Me and a couple friends also went to a lakehouse about 30 minutes south of Atlanta and spent a couple days. It was so much fun!
+So far, this summer has been pretty relaxing. After I got off from school, I had roughly a month before my internship started. Since I had essentially no commitments during this time, I had the most chill month you could imagine. I spent some of my free time working on my main website project at the moment ([gtcoursewatch.us][gtcoursewatch]) by adding new features and revamping the front-end. Me and a couple friends also went to a lakehouse about 30 minutes south of Atlanta and spent a couple days. It was so much fun!
 
-I left Atlanta around June 1st for Pittsburgh, where I am right now for a summer internship with IBM. The lab I work in specializes in search and is a component of IBM's Watson initiative. I specifically work on the DevOps team, which is basically the layer of software developers that interface between the system administrators and the other developers on the floor. My teammates are incredibly good with the command line. They spend the majority of their day in a full-screen terminal window with several tabs open. They don't even leave the terminal to write code since they use Vim, lol! I wasn't familiar with this level of engagement with the terminal, but I can see why they prefer it: It's all about efficiency.
+I left Atlanta around June 1st for Pittsburgh, where I am right now for a summer internship with IBM. The lab I work in specializes in search and is a component of IBM's Watson initiative. I specifically work on the DevOps team, which is basically the layer of software developers that interface between the system administrators and the other developers on the floor. A lot of the job is automating and standardizing software on infrastructure so that as our lab's projects scale, provisioning new infrastructure is not a total nightmare. My teammates are incredibly good with the command line. They spend the majority of their day in a full-screen terminal window with several tabs open. They don't even leave the terminal to write code since they use Vim, lol! In fact, the Sr. Software developer in my group has a ```.vimrc``` file about 800 lines long... I wasn't familiar with this level of engagement with the terminal, but I can see why they prefer it: It's all about efficiency.
 
-I started out learning [Chef][chef] to contribute to IBMs Chef environment, and have recently been working on a Chef Reporting Rails application which essentially provides a dashboard for everyone on the floor to see what hardware nodes are currently non-responsive. The application detects non-responsive nodes by polling the Chef server every minute, and also sends out e-mails to the appropriate people upon detection.
+I started out learning [Chef][chef] to contribute to IBM's Chef environment, and have recently been working on a Chef Reporting Rails application. In a nutshell, the app is a dashboard for everyone on the floor to see what hardware nodes are currently non-responsive due to a build failure. The application detects non-responsive nodes by polling the Chef server every minute, and also sends out e-mails to the appropriate people upon detection of a non-responsive node.
 
-I've been using Ruby for just about everything since I started here at IBM, and am quickly growing to really appreciate the power that this language packs. The syntax is incredibly concise while still offering a large amount of flexibility. It's very object oriented, and even has some functional elements. For example, just like in JavaScript, functions are first-class citizens (at least through the use of a Proc object). All you need to do is define a lambda, pass a block into a proc, or even reference an existing method. Here's an example:
+I've been using Ruby for just about everything since I started here at IBM, and am quickly growing to really appreciate the power that this language packs. The syntax is incredibly concise while offering a large amount of flexibility. It's very object oriented, and even has some functional elements. For example, just like in JavaScript, functions are first-class citizens (at least through the use of a Proc object). All you need to do is define a lambda, pass a block into a proc, or reference an existing method. Here's an example:
 
 {% highlight ruby %}
 #Creating a Lambda
@@ -25,7 +25,7 @@ p = Proc.new {|param| puts param + " World!"}
 l.call("Hello")
 p.call("Hello")
 
-#or even reference an existing method
+#or reference an existing method
 def hello_world(param)
   puts param + " World!"
 end
