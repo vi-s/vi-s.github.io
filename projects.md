@@ -5,7 +5,7 @@ layout: default
 
 # Projects
 -	Georgia Tech CourseWatch Web App &#124; node.js/mongodb/jQuery &#124; [gtcoursewatch.us](http://www.gtcoursewatch.us) ([Source Code](https://github.com/vi-s/gtcw))
--	Student Organization Management System &#124; android/node.js/mysql &#124; ([Source Code](https://github.com/TeamStingers/StudentOrgManager))
+-	Android Student Organization Management System &#124; android/node.js/mysql &#124; ([Source Code](https://github.com/TeamStingers/StudentOrgManager))
 -	Personal Website &#124; Jekyll Static Site Generator &#124; ([Source Code](https://github.com/vi-s/vi-s.github.io))
 -	Maple Trainer &#124; c++ &#124; ([Source Code](https://github.com/vi-s/MapleTrainer))
 -	GTPort &#124; php/mysql &#124; ([Source Code](https://github.com/vi-s/gtport))
