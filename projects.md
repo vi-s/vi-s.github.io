@@ -4,6 +4,12 @@ layout: default
 ---
 
 # Projects
+
+
+
+-	Download Accelerator Chrome Extension &#124; javascript/html+css/python/shell &#124; ([Source Code](https://github.com/vi-s/download-accelerator-chrome-extension))
+-	Personal Media Server &#124; python/bash &#124; ([Source Code](https://github.com/vi-s/personal-media-server))
+-	Linux Automation Suite &#124; bash &#124; ([Source Code](https://github.com/vi-s/Linux-Scripts))
 -	Georgia Tech CourseWatch Web App &#124; node.js/mongodb/jQuery &#124; [gtcoursewatch.us](http://www.gtcoursewatch.us) ([Source Code](https://github.com/vi-s/gtcw))
 -	Android Student Organization Management System &#124; android/node.js/mysql &#124; ([Source Code](https://github.com/TeamStingers/StudentOrgManager))
 -	Personal Website &#124; Jekyll Static Site Generator &#124; ([Source Code](https://github.com/vi-s/vi-s.github.io))
