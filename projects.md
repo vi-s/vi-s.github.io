@@ -7,7 +7,7 @@ layout: default
 
 
 
--	Download Accelerator Chrome Extension &#124; javascript/angularjs+html+css/python/shell &#124; ([Source Code](https://github.com/vi-s/download-accelerator-chrome-extension))
+-	Download Accelerator Chrome Extension &#124; javascript/angularjs/python/shell &#124; ([Source Code](https://github.com/vi-s/download-accelerator-chrome-extension))
 -	Personal Media Server &#124; python/bash &#124; ([Source Code](https://github.com/vi-s/personal-media-server))
 -	Linux Automation Suite &#124; bash &#124; ([Source Code](https://github.com/vi-s/Linux-Scripts))
 -	Georgia Tech CourseWatch Web App &#124; node.js/mongodb/jQuery &#124; [gtcoursewatch.us](http://www.gtcoursewatch.us) ([Source Code](https://github.com/vi-s/gtcw))
