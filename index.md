@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hi, I'm Vikram
+title: Vikram Somu
 ---
 
 I'm a computer science major at Georgia Tech graduating in the Spring of 2015.  
