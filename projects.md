@@ -16,7 +16,7 @@ layout: default
 -	Jetty Wordcount API &#124; java/maven &#124; ([Source Code](https://github.com/vi-s/jetty_wordcount))
 -	Parallelized File Indexer &#124; python &#124; ([Source Code](https://github.com/vi-s/file_indexer))
 -	Personal Website &#124; Jekyll Static Site Generator &#124; ([Source Code](https://github.com/vi-s/vi-s.github.io))
--	Wheat Stats Scatterplot &#124; javascript/d3.js &#124; ([Source Code](https://github.com/vi-s/ScatterPlot_InfoVis))
+-	Wheat Stats Interactive Scatterplot &#124; javascript/d3.js &#124; ([Source Code](https://github.com/vi-s/ScatterPlot_InfoVis))
 -	Minesweeper &#124; python/turtle &#124; ([Source Code](https://github.com/vi-s/python-minesweeper))
 -	Maple Trainer &#124; c++ &#124; ([Source Code](https://github.com/vi-s/MapleTrainer))
 -	GTPort &#124; php/mysql &#124; ([Source Code](https://github.com/vi-s/gtport))
