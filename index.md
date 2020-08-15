@@ -3,7 +3,7 @@ layout: page
 title: Vikram Somu
 ---
 
-CS graduate with strong interests in web and distributed systems.  
+CS graduate with strong interests in web, cloud, distributed systems, and scalable design.  
 General interest in software development, data structures, and algorithms.  
 I enjoy learning about new technologies and products.  
 
