@@ -7,7 +7,7 @@ CS graduate with strong interests in web, distributed systems, cloud, and scalab
 General interest in software development, data structures, and algorithms.  
 I enjoy learning about new technologies and products.  
 
-java, c#, js + ts, python, sql, shell, c++, ruby  
+java, c#, javascript, python, sql, shell, c++, ruby  
 
 [Resume](/Resume.pdf) / [Github][github] / [E-Mail](mailto:vs19@gatech.edu)
 
